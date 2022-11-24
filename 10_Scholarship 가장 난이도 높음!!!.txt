@@ -18,3 +18,5 @@ public class 클래스명 {
         System.out.printf("%s => %s\n", name, result);
     }
 }
+
+앤드 연산자 뿐만 아니라 진리값 표 확인하자!
