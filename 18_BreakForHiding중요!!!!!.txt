@@ -1,0 +1,22 @@
+public class 클래스명 {
+    public static void main(String[] args) {
+        printSum(1, 10);
+    }
+
+    public static void printSum(int start, int end) {
+        int sum = 0;
+        for (int i = start; i <= end; i++) {
+            System.out.printf("%d", i);
+            sum += i;
+            if (i == end) {
+                break;
+            }
+            System.out.printf(" + ");
+        }
+        System.out.printf(" = %d", sum);
+    }
+}
+
+
+//불이 꺼져있다가 물체가 다가오면 인식
+//불이 꺼진 상태를 break 로 빠져나감
